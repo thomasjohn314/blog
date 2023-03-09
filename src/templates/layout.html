@@ -1,0 +1,25 @@
+$def with (content)
+<html>
+    <head>
+        <title>Hello world!</title>
+        <link rel="stylesheet" href="/static/css/simple.min.css">
+    </head>
+    <body>
+        <header>
+            <br>
+            <h1>johncameronthomas.net</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/posts">Posts</a>
+                <a href="/contact">Contact</a>
+            </nav>
+        </header>
+        <main>
+            $:content
+        </main>
+        <footer>
+            <p>Created by John Cameron Thomas.</p>
+        </footer>
+    </body>
+</html>
