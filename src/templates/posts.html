@@ -1,1 +1,7 @@
-<p>Posts page.</p>
+$def with (posts)
+$var title: Posts
+$for post in posts:
+    <article>
+        <h2>$post['title']</h2>
+        <p>$post['content']</p>
+    </article>
